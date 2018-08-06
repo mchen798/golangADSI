@@ -8,7 +8,7 @@ import (
 func main() {
 	var counter int
 	fmt.Scanf("%d", &counter)
-	arr := make([]int, counter, 1000)
+	arr := make([]int, counter, 10000)
 	for i := 0; i < counter; i++ {
 		fmt.Scanf("%d", &arr[i])
 	}
